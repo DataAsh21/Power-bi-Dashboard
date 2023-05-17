@@ -1,0 +1,14 @@
+Introduction
+The purpose of this project is to create a product analysis dashboard using Power BI. The dashboard will provide insights into sales and profit data, allowing users to analyze performance, identify trends, and make informed business decisions. The dashboard consists of three main pages: Dashboard, Details Analysis, and Performance Report. Custom icon buttons will be used for easy navigation between the pages. Additionally, an ETL (Extract, Transform, Load) process will be implemented to prepare and transform the data. Calculated columns in DAX (Data Analysis Expressions) will be used to derive measures such as sales and profit.
+ETL Process
+The ETL process involves the following steps:
+Extract: Retrieve the sales and profit data from the data source, such as a database or Excel file.
+Transform: Perform data transformations and cleaning operations. This may include removing duplicates, handling missing values, and ensuring data consistency.
+Load: Load the transformed data into Power BI for analysis and visualization.
+Calculated Columns and DAX Measures
+In the data model, calculated columns and DAX measures are created to derive additional insights. Examples of calculated columns and DAX measures include:
+Sales: Calculated as the product of unit sold and unit price.
+Profit for Total Unit Sold: Calculated as profit multiplied by the unit sold.
+These calculated columns and DAX measures enhance the analysis capabilities of the dashboard.
+
+
